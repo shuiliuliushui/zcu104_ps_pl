@@ -1,0 +1,67 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.62588",
+   "Default View_TopLeft":"870,172",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_rst_KEY_PL_0 -pg 1 -lvl 0 -x 0 -y 760 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 350 -y 1090 -defaultsOSRD
+preplace inst BRAM_INIT -pg 1 -lvl 6 -x 2410 -y 1100 -defaultsOSRD
+preplace inst BRAM_RES -pg 1 -lvl 6 -x 2410 -y 800 -defaultsOSRD
+preplace inst BRAM_RES_ctrl -pg 1 -lvl 5 -x 1950 -y 720 -defaultsOSRD
+preplace inst BRAM_INIT_ctrl -pg 1 -lvl 5 -x 1950 -y 880 -defaultsOSRD
+preplace inst axi_cdma_0 -pg 1 -lvl 3 -x 1270 -y 690 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 2 -x 880 -y 500 -defaultsOSRD
+preplace inst rst_ps8_0_100M -pg 1 -lvl 2 -x 880 -y 900 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 4 -x 1610 -y 700 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 6 -x 2410 -y 180 -defaultsOSRD
+preplace inst controller_0 -pg 1 -lvl 3 -x 1270 -y 370 -defaultsOSRD
+preplace inst dut_0 -pg 1 -lvl 5 -x 1950 -y 400 -defaultsOSRD
+preplace netloc controller_0_rstb_PL 1 3 3 N 330 1790J 160 2250
+preplace netloc controller_0_start_DUT 1 3 2 1450 420 NJ
+preplace netloc dut_0_DUT_finish 1 2 4 1110 150 NJ 150 NJ 150 2130
+preplace netloc rst_KEY_PL_0_1 1 0 3 20J 220 NJ 220 1100J
+preplace netloc rst_ps8_0_100M_peripheral_aresetn 1 1 4 690 240 1070 790 1470 620 1760
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 1 1 690 880n
+preplace netloc axi_cdma_0_cdma_introut 1 0 4 40 800 NJ 800 NJ 800 1430
+preplace netloc controller_0_mnt_FSM_state 1 3 3 1440 70 NJ 70 NJ
+preplace netloc controller_0_mnt_enable 1 3 3 1430 50 NJ 50 NJ
+preplace netloc controller_0_mnt_slv_reg0_bit0 1 3 3 1460 90 NJ 90 NJ
+preplace netloc dut_0_mnt_fsm_state_dut 1 5 1 2140 110n
+preplace netloc dut_0_mnt_cnt_dut 1 5 1 2160 130n
+preplace netloc dut_0_bram_init_addr_o 1 5 1 2220 170n
+preplace netloc dut_0_bram_res_addr_o 1 5 1 2280 230n
+preplace netloc dut_0_bram_res_wr_data_o 1 5 1 2260 250n
+preplace netloc dut_0_bram_res_en_o 1 5 1 2270 270n
+preplace netloc BRAM_INIT_doutb 1 5 1 2200 190n
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 5 30 1180 680 230 1090 600 1450 600 1780
+preplace netloc zynq_ultra_ps_e_0_pl_clk1 1 1 5 660J 40 NJ 40 NJ 40 NJ 40 2140
+preplace netloc dut_0_bram_init_en_o 1 5 1 2210 210n
+preplace netloc dut_0_bram_res_rst_0 1 5 1 2180 240n
+preplace netloc dut_0_bram_res_clk_o 1 5 1 2190 260n
+preplace netloc dut_0_bram_res_we_o 1 5 1 2170 340n
+preplace netloc dut_0_bram_init_clk_o 1 5 1 2120 420n
+preplace netloc dut_0_bram_init_rst_0 1 5 1 2230 310n
+preplace netloc dut_0_bram_init_we_o 1 5 1 2110 500n
+preplace netloc BRAM_INIT_ctrl_BRAM_PORTA 1 5 1 2130 880n
+preplace netloc BRAM_RES_ctrl_BRAM_PORTA 1 5 1 N 720
+preplace netloc axi_cdma_0_M_AXI 1 3 1 N 680
+preplace netloc axi_smc_M00_AXI 1 4 1 1770 680n
+preplace netloc axi_smc_M01_AXI 1 4 1 N 700
+preplace netloc axi_smc_M02_AXI 1 0 5 30 780 NJ 780 NJ 780 NJ 780 1750
+preplace netloc dut_0_BRAM_INIT 1 5 1 2150 380n
+preplace netloc dut_0_BRAM_RES 1 5 1 2240 220n
+preplace netloc ps8_0_axi_periph_M00_AXI 1 2 1 1080 300n
+preplace netloc ps8_0_axi_periph_M01_AXI 1 2 1 N 320
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 1 1 670 420n
+levelinfo -pg 1 0 350 880 1270 1610 1950 2410 2540
+pagesize -pg 1 -db -bbox -sgen -150 -40 2540 1240
+"
+}
+{
+   "da_axi4_cnt":"5",
+   "da_bram_cntlr_cnt":"4",
+   "da_clkrst_cnt":"12",
+   "da_zynq_ultra_ps_e_cnt":"2"
+}

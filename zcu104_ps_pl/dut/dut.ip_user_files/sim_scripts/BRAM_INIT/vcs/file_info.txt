@@ -1,0 +1,3 @@
+blk_mem_gen_v8_4.v,verilog,blk_mem_gen_v8_4_6,../../../ipstatic/simulation/blk_mem_gen_v8_4.v,
+BRAM_INIT.v,verilog,xil_defaultlib,../../../../dut.gen/sources_1/ip/BRAM_INIT/sim/BRAM_INIT.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Nov 28 20:10:42 2023
+# Process ID: 31612
+# Current directory: E:/Blog/Project/zcu104_ps_pl/ps_pl
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28288 E:\Blog\Project\zcu104_ps_pl\ps_pl\ps_pl.xpr
+# Log file: E:/Blog/Project/zcu104_ps_pl/ps_pl/vivado.log
+# Journal file: E:/Blog/Project/zcu104_ps_pl/ps_pl\vivado.jou
+# Running On: DESKTOP-CB9FMLM, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 8, Host memory: 68643 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Blog/Project/zcu104_ps_pl/ps_pl/ps_pl.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,362 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Nov  5 11:33:14 2023
+# Process ID: 38664
+# Current directory: E:/Blog/Project/zcu104_ps_pl/ps_pl/ps_pl.runs/design_1_dut_0_0_synth_1
+# Command line: vivado.exe -log design_1_dut_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_dut_0_0.tcl
+# Log file: E:/Blog/Project/zcu104_ps_pl/ps_pl/ps_pl.runs/design_1_dut_0_0_synth_1/design_1_dut_0_0.vds
+# Journal file: E:/Blog/Project/zcu104_ps_pl/ps_pl/ps_pl.runs/design_1_dut_0_0_synth_1\vivado.jou
+# Running On: DESKTOP-CB9FMLM, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 8, Host memory: 68643 MB
+#-----------------------------------------------------------
+source design_1_dut_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1462.113 ; gain = 161.246
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Blog/Project/zcu104_ps_pl/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/software/Xilinx2023/Vivado/2023.1/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_dut_0_0
+Command: synth_design -top design_1_dut_0_0 -part xczu7ev-ffvc1156-2-e -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 52632
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2982.898 ; gain = 346.352
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_dut_0_0' [e:/Blog/Project/zcu104_ps_pl/ps_pl/ps_pl.gen/sources_1/bd/design_1/ip/design_1_dut_0_0/synth/design_1_dut_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'dut' [e:/Blog/Project/zcu104_ps_pl/ps_pl/ps_pl.gen/sources_1/bd/design_1/ipshared/447b/src/dut.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dut' (0#1) [e:/Blog/Project/zcu104_ps_pl/ps_pl/ps_pl.gen/sources_1/bd/design_1/ipshared/447b/src/dut.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_dut_0_0' (0#1) [e:/Blog/Project/zcu104_ps_pl/ps_pl/ps_pl.gen/sources_1/bd/design_1/ip/design_1_dut_0_0/synth/design_1_dut_0_0.v:53]
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[31] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[30] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[29] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[28] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[27] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[26] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[25] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[24] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[23] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[22] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[21] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[20] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[19] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[18] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[17] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[16] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[15] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[14] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[13] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[12] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[11] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[10] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[9] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[8] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[7] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[6] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[5] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[4] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[3] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[2] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[1] in module dut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[0] in module dut is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 3079.027 ; gain = 442.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 3096.926 ; gain = 460.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 3096.926 ; gain = 460.379
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 3096.926 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3166.164 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 3184.039 ; gain = 17.875
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 3184.039 ; gain = 547.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 3184.039 ; gain = 547.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 3184.039 ; gain = 547.492
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'fsm_state_reg' in module 'dut'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                    IDLE |                              001 |                              001
+                    WORK |                              010 |                              010
+                  FINISH |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'fsm_state_reg' in module 'dut'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3184.039 ; gain = 547.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input    7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    7 Bit        Muxes := 1     
+	   4 Input    3 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 3     
+	   4 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[31] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[30] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[29] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[28] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[27] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[26] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[25] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[24] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[23] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[22] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[21] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[20] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[19] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[18] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[17] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[16] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[15] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[14] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[13] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[12] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[11] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[10] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[9] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[8] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_addr_o[7] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_we_o driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[31] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[30] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[29] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[28] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[27] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[26] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[25] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[24] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[23] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[22] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[21] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[20] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[19] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[18] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[17] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[16] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[15] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[14] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[13] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[12] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[11] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[10] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[9] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[8] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[7] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[6] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[5] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[4] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[3] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[1] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_init_wr_data_o[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_dut_0_0 has port bram_res_we_o driven by constant 1
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[31] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[30] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[29] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[28] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[27] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[26] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[25] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[24] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[23] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[22] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[21] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[20] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[19] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[18] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[17] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[16] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[15] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[14] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[13] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[12] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[11] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[10] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[9] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[8] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[7] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[6] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[5] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[4] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[3] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[2] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[1] in module design_1_dut_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_res_rd_data_i[0] in module design_1_dut_0_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 3184.039 ; gain = 547.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 3645.898 ; gain = 1009.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 3645.898 ; gain = 1009.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 3655.992 ; gain = 1019.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 3671.766 ; gain = 1035.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 3671.766 ; gain = 1035.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 3671.766 ; gain = 1035.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 3671.766 ; gain = 1035.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 3671.766 ; gain = 1035.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 3671.766 ; gain = 1035.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY8 |     4|
+|2     |LUT1   |     3|
+|3     |LUT2   |    30|
+|4     |LUT3   |     7|
+|5     |LUT4   |     5|
+|6     |LUT5   |     4|
+|7     |LUT6   |     6|
+|8     |FDCE   |     7|
+|9     |FDPE   |     1|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 3671.766 ; gain = 1035.219
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 33 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 3671.766 ; gain = 948.105
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 3671.766 ; gain = 1035.219
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 3683.785 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3715.914 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: b435a3d1
+INFO: [Common 17-83] Releasing license: Synthesis
+85 Infos, 65 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 3715.914 ; gain = 2180.391
+INFO: [Common 17-1381] The checkpoint 'E:/Blog/Project/zcu104_ps_pl/ps_pl/ps_pl.runs/design_1_dut_0_0_synth_1/design_1_dut_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_dut_0_0, cache-ID = 4f4a164cae61ff1f
+INFO: [Common 17-1381] The checkpoint 'E:/Blog/Project/zcu104_ps_pl/ps_pl/ps_pl.runs/design_1_dut_0_0_synth_1/design_1_dut_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_dut_0_0_utilization_synth.rpt -pb design_1_dut_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  5 11:34:12 2023...

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Oct 21 16:46:50 2023
+# Process ID: 63440
+# Current directory: E:/Blog/Project/zcu104_ps_pl/dut/dut.runs/BRAM_INIT_synth_1
+# Command line: vivado.exe -log BRAM_INIT.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source BRAM_INIT.tcl
+# Log file: E:/Blog/Project/zcu104_ps_pl/dut/dut.runs/BRAM_INIT_synth_1/BRAM_INIT.vds
+# Journal file: E:/Blog/Project/zcu104_ps_pl/dut/dut.runs/BRAM_INIT_synth_1\vivado.jou
+# Running On: DESKTOP-CB9FMLM, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 8, Host memory: 68643 MB
+#-----------------------------------------------------------
+source BRAM_INIT.tcl -notrace

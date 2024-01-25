@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Nov 28 20:10:52 2023
+# Process ID: 15780
+# Current directory: E:/Blog/Project/zcu104_ps_pl/ctrl
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29548 E:\Blog\Project\zcu104_ps_pl\ctrl\ctrl.xpr
+# Log file: E:/Blog/Project/zcu104_ps_pl/ctrl/vivado.log
+# Journal file: E:/Blog/Project/zcu104_ps_pl/ctrl\vivado.jou
+# Running On: DESKTOP-CB9FMLM, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 8, Host memory: 68643 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Blog/Project/zcu104_ps_pl/ctrl/ctrl.xpr
+ipx::edit_ip_in_project -upgrade true -name ctrl_v1_0_project -directory E:/Blog/Project/zcu104_ps_pl/ctrl/ctrl.tmp/ctrl_v1_0_project e:/Blog/Project/zcu104_ps_pl/ip_repo/ctrl_1_0/component.xml
+update_compile_order -fileset sources_1
+current_project ctrl
+close_project
